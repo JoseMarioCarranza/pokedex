@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <img id="logopokemon"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/2560px-International_Pok%C3%A9mon_logo.svg.png" />
+        <p>
+            Welcome to my proyect, this is a web app where you can search for any
+            Pokemon that you want.
+        </p>
+        <p>
+            The only thing that you have to do is to write the name of the Pokemon
+            that you want to search or it´s id number.
+        </p>
+        <div id="search_bar">
+            <input id="name_input" />
+            <button id="search_btn" onclick="search()">Buscar</button>
+        </div>
+    </header>
+
+    <div id="container"></div>
+
+    <footer>
+        <p>
+            Nintendo, please don`t sue me :(
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

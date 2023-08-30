@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1vw;
+    font-weight: bold;
+    color: white;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+#logopokemon {
+    margin-top: 1vh;
+}
+
+p {
+    margin: 1vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    background-image: url("https://m.media-amazon.com/images/I/91eh8LsPtML.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    border-bottom: 0.25vh ridge black;
+}
+
+#pokemon_img {
+    margin-bottom: 1.5vh;
+}
+
+#search_bar {
+    margin-top: 0.5vh;
+    margin-bottom: 1vh;
+    display: flex;
+    justify-content: center;
+}
+
+header p {
+    font-size: 1vw;
+}
+
+header img {
+    width: 40vw;
+}
+
+#name_input,
+#search_btn {
+    height: 3vh;
+}
+
+#name_input {
+    margin-right: 1vw;
+}
+
+#container {
+    background-color: black;
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ8NDQ0NFREWFhURFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDg0NDi0ZFRkrNysrKy0tKysrKysrKy0tKy0rKysrKysrKysrKy0rKysrKystKysrKysrKysrKysrK//AABEIAKgBLAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAABAgAH/8QAFhABAQEAAAAAAAAAAAAAAAAAAAER/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAED/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A50zM3YMQRDCCBMYwGhxiI0LKgA4cOCDDhYBhw42AMY4cBIxWNgJxsVgwE4LFDATgXiRU4FAEhQoqAqgEsQAZmFZmIjEEDDGhgGGBUEYxooGhxoYIxMhwBhw4QGNisbBBjYcOAjGxWNgJwYrGwVAWkEiqooIsFXU0VIVQCKFUUVNBooAEAxBAkGAYqCGAYqCGCGKgioI0VgipAaGRoqQAcMOCDDhxsANisbBE4ysGCpwYrGBFFi0gmxNXU0VNTVpoJqaupoqaKqpBNFVUiig0ADGIEwGAYqCKghhgioBioIYIYqCKgNFQRQjHGhgjYcMjAGxWMCcbFAE4KoUE4FVNFTU1dTRU1NXU0E1NVRRUUVVTQTRVVKqmhQQBBgGKiYoDFQQwQxUEVBDFRMVAVDBFQDFQQwQxUEMEMIIMxYQBQFTgqhQTUqooJqaqiioqaupoqamqqaCaKaKKmpqqKKmg0ACDAVDBDAVDBDBFRUTFQRUMEVAMVExUEVFRMVBCqJigMIhghZiABFAJqqBU1NVU0E0VVTRU1NVU0VNTVUUE1NVU0VIpooqaDQAMBgKhiYqKKhiYqIioqJioIYqJioCoqJioIqKiFAqKiYRFFJBTBhGZgAopoFFTTRQTRTU0UVNNFFTU1VTQTRTRRU0U0UVINAAgwDFJhgKiomGCKiomKgKioiKgioqJMBcMTDBFwph0RRTp0FMnW0CwYGFagBRWFFFBqaAqaaKKKmmpoCppoooqVVNVQCEEmAgYqJUBiomGKKiomGIi4YmGCLhiYZQXDEymUF6dQRFaU6dEVranW0FaANA6GoFYNRQaprUUUUVqKAqaaKKKmkUAK1FFFBAAhgUUkFRUQqKKhiYURcMSYC5TqYYIpUqIdBenUadBWnU62iK1gNBWto0aB1hoBhraKK1FrAAK1AoorUA1TTRRRRWoAAsAZmFJDCKhjMoYpmAmMyISzArSzCNp1mA62lgbW1mBtGlgGjWYANZgFDMAtFZlVNDMKBQwMAyDBmFf/9k=");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 0;
+    flex-grow: 1;
+}
+
+#container img {
+    width: 15vw;
+    height: auto;
+}
+
+#top_side {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2vh;
+}
+
+#top_side #leftside {
+    margin-right: 2.5vw;
+}
+
+#top_side #rightside {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 2.5vw;
+}
+
+.pokemon_abilities {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.pokemonability {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+.pokemonability .leftside {
+    margin: 0;
+}
+
+.pokemonability .rightside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.pokemonability p {
+    margin: 0;
+}
+
+footer {
+    height: 4vh;
+    margin: 0;
+    background: grey;
+}
