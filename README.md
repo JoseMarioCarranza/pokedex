@@ -26,7 +26,7 @@ Check out the live version of the Pokedex app here: [Pokedex Web App](https://po
 
 1. **Clone the Repository**:
    ```
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/JoseMarioCarranza/pokedex
    ```
 2. **Run the App**:
    - Open the `index.html` file in your browser.
